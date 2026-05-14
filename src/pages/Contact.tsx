@@ -63,7 +63,7 @@ export const Contact = () => {
       <PageHeader 
         title="Contactez-nous" 
         subtitle="À votre service" 
-        image="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2000&auto=format&fit=crop"
+        image="/images/hero_restaurant.png"
       />
       
       <section className="py-32 px-6">
@@ -221,4 +221,3 @@ export const Contact = () => {
     </main>
   );
 };
-

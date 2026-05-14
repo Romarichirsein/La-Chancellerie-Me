@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const HERO_IMAGES = [
-  'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?q=80&w=2000&auto=format&fit=crop', // Restaurant
-  'https://images.unsplash.com/photo-1621252179027-94459d278660?q=80&w=2000&auto=format&fit=crop', // Lounge/Chicha
-  'https://images.unsplash.com/photo-1504221507732-5246c045949b?q=80&w=2000&auto=format&fit=crop', // Wine Cellar
-  'https://images.unsplash.com/photo-1541692641319-981cc79ee10a?q=80&w=2000&auto=format&fit=crop', // Cigar
+  '/images/hero_restaurant.png', // Restaurant
+  '/images/hero_lounge.png', // Lounge/Chicha
+  '/images/hero_cave.png', // Wine Cellar
+  '/images/hero_cigar.png', // Cigar
 ];
 
 export const Hero = () => {

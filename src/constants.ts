@@ -11,28 +11,28 @@ export const SERVICES: Service[] = [
     id: 'chicha',
     title: 'Chicha Lounge',
     description: 'Une sélection premium des meilleurs tabacs et saveurs dans un cadre apaisant.',
-    image: 'https://images.unsplash.com/photo-1621252179027-94459d278660?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_lounge.png',
     link: '/services/chicha'
   },
   {
     id: 'restaurant',
     title: 'Restaurant Gastronomique',
     description: 'Une cuisine d\'exception alliant tradition et modernité pour vos palais les plus fins.',
-    image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_restaurant.png',
     link: '/services/restaurant'
   },
   {
     id: 'cave',
     title: 'Cave à Vin',
     description: 'Des crus prestigieux sélectionnés avec soin par nos experts sommeliers.',
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_cave.png',
     link: '/services/cave'
   },
   {
     id: 'cigare',
     title: 'Salon de Cigare',
     description: 'L\'élégance du cigare dans un espace dédié aux amateurs et connaisseurs.',
-    image: 'https://images.unsplash.com/photo-1541692641319-981cc79ee10a?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_cigar.png',
     link: '/services/cigare'
   }
 ];
@@ -61,7 +61,7 @@ export const EVENTS: EventItem[] = [
     date: '2026-05-15',
     time: '20:00',
     description: 'Une soirée envoûtante avec le quintet de jazz "Bastos Rhythm" tout en dégustant nos plats signatures.',
-    image: 'https://images.unsplash.com/photo-1514525253361-bee8718a340b?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_lounge.png',
     category: 'Live Music'
   },
   {
@@ -70,7 +70,7 @@ export const EVENTS: EventItem[] = [
     date: '2026-05-22',
     time: '18:30',
     description: 'Découvrez 5 crus prestigieux de la région de Bordeaux sélectionnés par notre sommelier en chef.',
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_cave.png',
     category: 'Tasting'
   },
   {
@@ -79,7 +79,7 @@ export const EVENTS: EventItem[] = [
     date: '2026-05-29',
     time: '21:00',
     description: 'Immersion totale dans l\'ambiance de La Havane avec cocktails exclusifs et sélection de cigares rares.',
-    image: 'https://images.unsplash.com/photo-1541692641319-981cc79ee10a?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/hero_cigar.png',
     category: 'Themed Night'
   }
 ];

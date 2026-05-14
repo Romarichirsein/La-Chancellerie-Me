@@ -18,7 +18,7 @@ export const Cave = () => {
       <PageHeader 
         title="La Cave de Prestige" 
         subtitle="Sélection de Sommelier" 
-        image="https://images.unsplash.com/photo-1504221507732-5246c045949b?q=80&w=2000&auto=format&fit=crop"
+        image="/images/hero_cave.png"
       />
       
       <section className="py-20 px-6 bg-background">
@@ -68,7 +68,7 @@ export const Cave = () => {
 
           <div className="mt-32 p-12 lg:p-20 bg-black text-white rounded-[3rem] relative overflow-hidden">
              <div className="absolute inset-0 opacity-20 pointer-events-none">
-                <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?q=80&w=1200&auto=format&fit=crop" className="w-full h-full object-cover" alt="bg" referrerPolicy="no-referrer" />
+                <img src="/images/hero_cave.png" className="w-full h-full object-cover" alt="bg" referrerPolicy="no-referrer" />
              </div>
              <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                 <div className="space-y-8">

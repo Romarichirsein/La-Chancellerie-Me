@@ -18,7 +18,7 @@ export const Home = () => {
           <div className="relative group">
             <div className="absolute -inset-4 border border-gold/20 translate-x-4 translate-y-4 rounded-3xl -z-10 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
             <img 
-              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop" 
+              src="/images/hero_restaurant.png" 
               alt="L'Art de Vivre" 
               className="w-full aspect-square object-cover rounded-3xl shadow-2xl"
               referrerPolicy="no-referrer"
@@ -34,7 +34,7 @@ export const Home = () => {
               <span className="text-gold uppercase tracking-[0.3em] text-xs font-bold">L'Art de Vivre</span>
               <h2 className="text-5xl md:text-7xl font-serif leading-[1.1]">Une Destinée <br/> <span className="italic luxury-text-gradient">D'Élite</span></h2>
               <p className="text-muted-foreground text-xl font-light leading-relaxed">
-                Située dans le quartier résidentiel de Bastos, La Chancellerie & Me est bien plus qu'un établissement. C'est un sanctuaire du goût et de l'élégance où chaque détail raconte une histoire d'excellence.
+                Située dans le quartier résidentiel de Bastos, La Chancellerie & Me est bien plus qu'un établissement. C'est un sanctuaire du goût et de l'élégance où chaque détail raconte une story d'excellence.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Notre équipe d'experts dévoués vous accueille pour des moments suspendus, que ce soit pour une dégustation de vins rares, un repas gastronomique ou la découverte d'un cigare de collection.

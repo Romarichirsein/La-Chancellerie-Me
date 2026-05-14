@@ -4,18 +4,18 @@ import { ImageGallery } from '../components/ImageGallery';
 import { motion } from 'motion/react';
 
 const allGalleryImages = [
-  { url: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1200&auto=format&fit=crop', caption: 'Inauguration du Salon de Cigare' },
-  { url: 'https://images.unsplash.com/photo-1543007630-9710e40e7424?q=80&w=1200&auto=format&fit=crop', caption: 'Dégustation Exclusive Millésimes 1990' },
-  { url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1200&auto=format&fit=crop', caption: 'Concert Jazz Live "Midnight in Bastos"' },
-  { url: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop', caption: 'Cocktail de Charité annuel' },
-  { url: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1200&auto=format&fit=crop', caption: 'Événement Élite "Ambassadeur Privé"' },
-  { url: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=1200&auto=format&fit=crop', caption: 'Nuit Cubaine dans le Lounge' },
-  { url: 'https://images.unsplash.com/photo-1496333036606-3bc01955959f?q=80&w=1200&auto=format&fit=crop', caption: 'Dîner aux chandelles de la Saint-Valentin' },
-  { url: 'https://images.unsplash.com/photo-1520242739010-44e95bde329e?q=80&w=1200&auto=format&fit=crop', caption: 'Masterclass Mixologie de prestige' },
-  { url: 'https://images.unsplash.com/photo-1514525253361-bee8718a340b?q=80&w=1200&auto=format&fit=crop', caption: 'Soirée Jazz & Gastronomie' },
-  { url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1200&auto=format&fit=crop', caption: 'Dégustation Millésimes Bordeaux' },
-  { url: 'https://images.unsplash.com/photo-1541692641319-981cc79ee10a?q=80&w=1200&auto=format&fit=crop', caption: 'Nuit Cubaine & Cigares' },
-  { url: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop', caption: 'Gala de Prestige' }
+  { url: '/images/hero_cigar.png', caption: 'Inauguration du Salon de Cigare' },
+  { url: '/images/hero_cave.png', caption: 'Dégustation Exclusive Millésimes 1990' },
+  { url: '/images/hero_lounge.png', caption: 'Concert Jazz Live "Midnight in Bastos"' },
+  { url: '/images/hero_restaurant.png', caption: 'Cocktail de Charité annuel' },
+  { url: '/images/hero_restaurant.png', caption: 'Événement Élite "Ambassadeur Privé"' },
+  { url: '/images/hero_lounge.png', caption: 'Nuit Cubaine dans le Lounge' },
+  { url: '/images/hero_restaurant.png', caption: 'Dîner aux chandelles de la Saint-Valentin' },
+  { url: '/images/food_gourmet_1.png', caption: 'Masterclass Mixologie de prestige' },
+  { url: '/images/hero_lounge.png', caption: 'Soirée Jazz & Gastronomie' },
+  { url: '/images/hero_cave.png', caption: 'Dégustation Millésimes Bordeaux' },
+  { url: '/images/hero_cigar.png', caption: 'Nuit Cubaine & Cigares' },
+  { url: '/images/food_gourmet_2.png', caption: 'Gala de Prestige' }
 ];
 
 export const Gallery = () => {
@@ -24,7 +24,7 @@ export const Gallery = () => {
       <PageHeader 
         title="Galerie" 
         subtitle="Souvenirs d'Exception" 
-        image="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2000&auto=format&fit=crop"
+        image="/images/hero_restaurant.png"
       />
       
       <section className="py-24 px-6 bg-background">
