@@ -4,18 +4,22 @@ import { ImageGallery } from '../components/ImageGallery';
 import { motion } from 'motion/react';
 
 const allGalleryImages = [
-  { url: '/images/hero_cigar.png', caption: 'Inauguration du Salon de Cigare' },
-  { url: '/images/hero_cave.png', caption: 'Dégustation Exclusive Millésimes 1990' },
-  { url: '/images/hero_lounge.png', caption: 'Concert Jazz Live "Midnight in Bastos"' },
-  { url: '/images/hero_restaurant.png', caption: 'Cocktail de Charité annuel' },
-  { url: '/images/hero_restaurant.png', caption: 'Événement Élite "Ambassadeur Privé"' },
-  { url: '/images/hero_lounge.png', caption: 'Nuit Cubaine dans le Lounge' },
-  { url: '/images/hero_restaurant.png', caption: 'Dîner aux chandelles de la Saint-Valentin' },
-  { url: '/images/food_gourmet_1.png', caption: 'Masterclass Mixologie de prestige' },
-  { url: '/images/hero_lounge.png', caption: 'Soirée Jazz & Gastronomie' },
-  { url: '/images/hero_cave.png', caption: 'Dégustation Millésimes Bordeaux' },
-  { url: '/images/hero_cigar.png', caption: 'Nuit Cubaine & Cigares' },
-  { url: '/images/food_gourmet_2.png', caption: 'Gala de Prestige' }
+  { url: '/images/lounge_red.jpg', caption: 'Inauguration du Salon VIP' },
+  { url: '/images/hero_cave.jpg', caption: 'Dégustation Exclusive Millésimes 1990' },
+  { url: '/images/hero_lounge.jpg', caption: 'Concert Jazz Live "Midnight in Bastos"' },
+  { url: '/images/hero_restaurant.jpg', caption: 'Cocktail de Charité annuel' },
+  { url: '/images/lounge_vip.jpg', caption: 'Événement Élite "Ambassadeur Privé"' },
+  { url: '/images/lounge_purple.jpg', caption: 'Nuit Cubaine dans le Lounge' },
+  { url: '/images/restaurant_elegant.jpg', caption: 'Dîner aux chandelles de la Saint-Valentin' },
+  { url: '/images/bar_neon.jpg', caption: 'Masterclass Mixologie de prestige' },
+  { url: '/images/events_stage.jpg', caption: 'Soirée Jazz & Gastronomie' },
+  { url: '/images/hero_cigar.jpg', caption: 'Cave à Cigares & Spiritueux' },
+  { url: '/images/events_club.jpg', caption: 'Nuit Cubaine & Cigares' },
+  { url: '/images/events_pink.jpg', caption: 'Gala de Prestige' },
+  { url: '/images/lounge_blue.jpg', caption: 'Espace Lounge Privé' },
+  { url: '/images/restaurant_interior.jpg', caption: 'Restaurant Gastronomique' },
+  { url: '/images/vip_room.jpg', caption: 'Carré VIP Exclusif' },
+  { url: '/images/lounge_green.jpg', caption: 'Ambiance Nocturne' }
 ];
 
 export const Gallery = () => {
@@ -24,7 +28,7 @@ export const Gallery = () => {
       <PageHeader 
         title="Galerie" 
         subtitle="Souvenirs d'Exception" 
-        image="/images/hero_restaurant.png"
+        image="/images/hero_restaurant.jpg"
       />
       
       <section className="py-24 px-6 bg-background">

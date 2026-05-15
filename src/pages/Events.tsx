@@ -11,14 +11,14 @@ import { ImageGallery } from '../components/ImageGallery';
 import { GalleryCarousel } from '../components/GalleryCarousel';
 
 const galleryImages = [
-  { url: '/images/hero_cigar.png', caption: 'Inauguration du Salon de Cigare' },
-  { url: '/images/hero_cave.png', caption: 'Dégustation Exclusive Millésimes 1990' },
-  { url: '/images/hero_lounge.png', caption: 'Concert Jazz Live "Midnight in Bastos"' },
-  { url: '/images/hero_restaurant.png', caption: 'Cocktail de Charité annuel' },
-  { url: '/images/hero_restaurant.png', caption: 'Événement Élite "Ambassadeur Privé"' },
-  { url: '/images/hero_lounge.png', caption: 'Nuit Cubaine dans le Lounge' },
-  { url: '/images/hero_restaurant.png', caption: 'Dîner aux chandelles de la Saint-Valentin' },
-  { url: '/images/food_gourmet_1.png', caption: 'Masterclass Mixologie de prestige' }
+  { url: '/images/events_stage.jpg', caption: 'Concert Jazz Live "Midnight in Bastos"' },
+  { url: '/images/events_club.jpg', caption: 'Nuit Cubaine dans le Lounge' },
+  { url: '/images/events_pink.jpg', caption: 'Gala de Prestige' },
+  { url: '/images/hero_restaurant.jpg', caption: 'Cocktail de Charité annuel' },
+  { url: '/images/lounge_vip.jpg', caption: 'Événement Élite "Ambassadeur Privé"' },
+  { url: '/images/bar_neon.jpg', caption: 'Masterclass Mixologie de prestige' },
+  { url: '/images/restaurant_interior.jpg', caption: 'Dîner aux chandelles de la Saint-Valentin' },
+  { url: '/images/hero_cave.jpg', caption: 'Dégustation Exclusive Millésimes 1990' }
 ];
 
 export const Events = () => {
@@ -27,7 +27,7 @@ export const Events = () => {
       <PageHeader 
         title="Événements" 
         subtitle="Expériences Exclusives" 
-        image="/images/hero_restaurant.png"
+        image="/images/events_club.jpg"
       />
       
       <section className="py-32 px-6 bg-background">

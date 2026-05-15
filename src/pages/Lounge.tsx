@@ -10,7 +10,7 @@ export const Lounge = () => {
       <PageHeader 
         title="L'Espace Feutré" 
         subtitle="Chicha & Cigar Lounge" 
-        image="/images/hero_lounge.png"
+        image="/images/hero_lounge.jpg"
       />
       
       <section className="py-32 px-6">
@@ -36,7 +36,7 @@ export const Lounge = () => {
             
             <div className="relative">
               <img 
-                src="/images/hero_lounge.png" 
+                src="/images/lounge_purple.jpg" 
                 alt="Chicha Experience" 
                 className="w-full aspect-[4/5] object-cover rounded-[3rem] shadow-2xl"
                 referrerPolicy="no-referrer"
@@ -51,7 +51,7 @@ export const Lounge = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 items-center">
             <div className="relative order-2 lg:order-1">
               <img 
-                src="/images/hero_cigar.png" 
+                src="/images/hero_cigar.jpg" 
                 alt="Cigar Lounge" 
                 className="w-full aspect-[4/5] object-cover rounded-[3rem] shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000"
                 referrerPolicy="no-referrer"

@@ -29,7 +29,7 @@ export const Restaurant = () => {
       <PageHeader 
         title="La Table d'Or" 
         subtitle="Gastronomie Fine" 
-        image="/images/hero_restaurant.png"
+        image="/images/hero_restaurant.jpg"
       />
       
       <section className="py-32 px-6">
@@ -55,7 +55,10 @@ export const Restaurant = () => {
            <div className="relative order-1 lg:order-2">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-
+                  src="/images/restaurant_elegant.jpg" 
+                  alt="Restaurant Intérieur" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-10 -left-10 w-48 h-48 luxury-gradient p-1 rounded-full hidden md:block">
                  <div className="w-full h-full bg-background rounded-full flex flex-col items-center justify-center text-center p-4">
@@ -114,13 +117,13 @@ export const Restaurant = () => {
                 whileHover={{ scale: 0.98 }}
                 className="aspect-square rounded-3xl overflow-hidden shadow-2xl"
                >
-                 <img src="/images/food_gourmet_1.png" alt="Food 1" className="w-full h-full object-cover" />
+                 <img src="/images/restaurant_interior.jpg" alt="Restaurant Interior" className="w-full h-full object-cover" />
                </motion.div>
                <motion.div 
                 whileHover={{ scale: 0.98 }}
                 className="aspect-square rounded-3xl overflow-hidden shadow-2xl translate-y-12"
                >
-                 <img src="/images/food_gourmet_2.png" alt="Food 2" className="w-full h-full object-cover" />
+                 <img src="/images/bar_neon.jpg" alt="Bar Ambiance" className="w-full h-full object-cover" />
                </motion.div>
             </div>
           </div>

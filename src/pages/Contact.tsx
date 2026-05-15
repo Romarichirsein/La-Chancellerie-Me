@@ -63,7 +63,7 @@ export const Contact = () => {
       <PageHeader 
         title="Contactez-nous" 
         subtitle="À votre service" 
-        image="/images/hero_restaurant.png"
+        image="/images/vip_room.jpg"
       />
       
       <section className="py-32 px-6">

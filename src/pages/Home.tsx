@@ -18,7 +18,7 @@ export const Home = () => {
           <div className="relative group">
             <div className="absolute -inset-4 border border-gold/20 translate-x-4 translate-y-4 rounded-3xl -z-10 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
             <img 
-              src="/images/hero_restaurant.png" 
+              src="/images/hero_restaurant.jpg" 
               alt="L'Art de Vivre" 
               className="w-full aspect-square object-cover rounded-3xl shadow-2xl"
               referrerPolicy="no-referrer"

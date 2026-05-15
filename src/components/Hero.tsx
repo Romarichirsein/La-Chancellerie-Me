@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const HERO_IMAGES = [
-  '/images/hero_restaurant.png', // Restaurant
-  '/images/hero_lounge.png', // Lounge/Chicha
-  '/images/hero_cave.png', // Wine Cellar
-  '/images/hero_cigar.png', // Cigar
+  '/images/hero_restaurant.jpg', // Restaurant
+  '/images/hero_lounge.jpg', // Lounge/Chicha
+  '/images/hero_cave.jpg', // Wine Cellar
+  '/images/hero_cigar.jpg', // Cigar
+  '/images/events_stage.jpg', // Events
+  '/images/lounge_vip.jpg', // VIP Lounge
 ];
 
 export const Hero = () => {
