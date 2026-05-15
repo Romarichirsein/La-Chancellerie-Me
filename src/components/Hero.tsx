@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const HERO_IMAGES = [
-  '/images/hero_restaurant.jpg', // Restaurant
-  '/images/hero_lounge.jpg', // Lounge/Chicha
-  '/images/hero_cave.jpg', // Wine Cellar
-  '/images/hero_cigar.jpg', // Cigar
-  '/images/events_stage.jpg', // Events
-  '/images/lounge_vip.jpg', // VIP Lounge
+  '/images/ce8e3441aff26528318e7dfcec7a3132.jpg', // Restaurant (Main)
+  '/images/dea6a43d055fabdc38ca5d2da0e5f4bb.jpg', // Cigar Lounge
+  '/images/82049710b6d48decc7269416343331d1.jpg', // Wine Cellar
+  '/images/a1179fb481af36afd78d7209e1a78f5f.jpg', // Chicha Lounge
+  '/images/d86a0edcff53eef0edfdab3dbf0bb826.jpg', // Events/Stage
+  '/images/e1c5daf3b01b906695904c838bbe78b5.jpg', // Nightclub
 ];
 
 export const Hero = () => {

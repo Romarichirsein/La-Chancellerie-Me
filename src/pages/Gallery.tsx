@@ -4,22 +4,22 @@ import { ImageGallery } from '../components/ImageGallery';
 import { motion } from 'motion/react';
 
 const allGalleryImages = [
-  { url: '/images/lounge_red.jpg', caption: 'Inauguration du Salon VIP' },
-  { url: '/images/hero_cave.jpg', caption: 'Dégustation Exclusive Millésimes 1990' },
-  { url: '/images/hero_lounge.jpg', caption: 'Concert Jazz Live "Midnight in Bastos"' },
-  { url: '/images/hero_restaurant.jpg', caption: 'Cocktail de Charité annuel' },
-  { url: '/images/lounge_vip.jpg', caption: 'Événement Élite "Ambassadeur Privé"' },
-  { url: '/images/lounge_purple.jpg', caption: 'Nuit Cubaine dans le Lounge' },
-  { url: '/images/restaurant_elegant.jpg', caption: 'Dîner aux chandelles de la Saint-Valentin' },
-  { url: '/images/bar_neon.jpg', caption: 'Masterclass Mixologie de prestige' },
-  { url: '/images/events_stage.jpg', caption: 'Soirée Jazz & Gastronomie' },
-  { url: '/images/hero_cigar.jpg', caption: 'Cave à Cigares & Spiritueux' },
-  { url: '/images/events_club.jpg', caption: 'Nuit Cubaine & Cigares' },
-  { url: '/images/events_pink.jpg', caption: 'Gala de Prestige' },
-  { url: '/images/lounge_blue.jpg', caption: 'Espace Lounge Privé' },
-  { url: '/images/restaurant_interior.jpg', caption: 'Restaurant Gastronomique' },
-  { url: '/images/vip_room.jpg', caption: 'Carré VIP Exclusif' },
-  { url: '/images/lounge_green.jpg', caption: 'Ambiance Nocturne' }
+  { url: '/images/036e00dfe3a9d41e2bcaf3286d43e32f.jpg', caption: 'Inauguration du Salon VIP' },
+  { url: '/images/82049710b6d48decc7269416343331d1.jpg', caption: 'La Cave de Prestige' },
+  { url: '/images/a1179fb481af36afd78d7209e1a78f5f.jpg', caption: 'Espace Chicha' },
+  { url: '/images/ce8e3441aff26528318e7dfcec7a3132.jpg', caption: 'Restaurant Gastronomique' },
+  { url: '/images/51f2b966e38b8ec2856b4d6b54902773.jpg', caption: 'Salon Élite' },
+  { url: '/images/a79987ebe2383aff13d8f43b77f3fbaf.jpg', caption: 'Ambiance Lounge' },
+  { url: '/images/2f75b4e0f037ca186c1efa418f124544.jpg', caption: 'Table d\'Exception' },
+  { url: '/images/17898e8b83abf0d758b396c29e029ca6.jpg', caption: 'Le Bar Néon' },
+  { url: '/images/d86a0edcff53eef0edfdab3dbf0bb826.jpg', caption: 'Scène Live' },
+  { url: '/images/dea6a43d055fabdc38ca5d2da0e5f4bb.jpg', caption: 'Salon de Cigare' },
+  { url: '/images/e1c5daf3b01b906695904c838bbe78b5.jpg', caption: 'Espace Club' },
+  { url: '/images/eab8c468e78bb3c3af7b02fb219c8b5d.jpg', caption: 'Vibration Nocturne' },
+  { url: '/images/bdedaf6834e6e443489d28cda9efd9a2.jpg', caption: 'Lounge Bleu' },
+  { url: '/images/7fd5bb5cdc861b4b044b6e9770d66fb8.jpg', caption: 'Intérieur Restaurant' },
+  { url: '/images/9d9ad9d30873a23147cb9c1dae33a4e4.jpg', caption: 'Carré VIP' },
+  { url: '/images/c30e15e2619a4a6f59031347ac08e201.jpg', caption: 'Lounge Vert' }
 ];
 
 export const Gallery = () => {
@@ -28,7 +28,7 @@ export const Gallery = () => {
       <PageHeader 
         title="Galerie" 
         subtitle="Souvenirs d'Exception" 
-        image="/images/hero_restaurant.jpg"
+        image="/images/ce8e3441aff26528318e7dfcec7a3132.jpg"
       />
       
       <section className="py-24 px-6 bg-background">

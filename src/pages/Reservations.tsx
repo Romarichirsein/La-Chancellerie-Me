@@ -10,7 +10,7 @@ export const Reservations = () => {
       <PageHeader 
         title="Réservations" 
         subtitle="Vivez l'Exception" 
-        image="/images/restaurant_interior.jpg"
+        image="/images/7fd5bb5cdc861b4b044b6e9770d66fb8.jpg"
       />
       
       <section className="py-32 px-6">
